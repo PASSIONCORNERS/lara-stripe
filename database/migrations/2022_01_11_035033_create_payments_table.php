@@ -20,7 +20,7 @@ class CreatePaymentsTable extends Migration
             $table->string('stripe_id');
             $table->integer('subtotal');
             $table->integer('tax')->default(0);
-            $table->integer('total_amout');
+            $table->integer('total');
             $table->timestamps();
         });
     }
