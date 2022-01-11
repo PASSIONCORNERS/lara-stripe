@@ -35,5 +35,5 @@ return [
      * When disabled, the package will not verify if the signature is valid.
      * This can be handy in local environments.
      */
-    'verify_signature' => env('STRIPE_SIGNATURE_VERIFY', true),
+    'verify_signature' => env('STRIPE_SIGNATURE_VERIFY', false),
 ];
